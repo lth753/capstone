@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+    <h1>이 일정을 수행하셨습니까?</h1>
+	날짜 : 2022-11-02<span th:text="${data.name}"></span><p></p>
+    계획 : 캡스톤디자인<span th:text="${data.name}"></span><p></p>
+    상세 정보 : --까지 구현 할 것<span th:text="${data.name}"></span><p></p>
+    <input type="submit" value="수행완료">
+    <input type="reset" value="취소">
+	
+    </form>
+    
+</body>
+</html>

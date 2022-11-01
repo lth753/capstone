@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>입력한 일정</h1>
+	<div>작성자 : <span th:text="${data.name}"></span></div>
+	<div>계획 : <span th:text="${data.plan}"></span></div>
+	<div>수행 여부 : <span th:text="${data.checks}"></span></div>
+	<div>입력일자 : <span th:text="${data.inDate}"></span></div>
+	
+
+</body>
+</html>
